@@ -1,0 +1,10 @@
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\bin\Debug\WindowsApplication.exe.config
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\bin\Debug\WindowsApplication.exe
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\bin\Debug\WindowsApplication.pdb
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\NewForExisting.csprojResolveAssemblyReference.cache
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form1.resources
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\WindowsFormsApplication6.Form2.resources
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\NewForExisting.WindowsFormsApplication6.Properties.Resources.resources
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\NewForExisting.csproj.GenerateResource.Cache
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\WindowsApplication.exe
+C:\Users\NotePad.by\Documents\Visual Studio 2012\Projects\WindowsFormsApplication6\obj\x86\Debug\WindowsApplication.pdb

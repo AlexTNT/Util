@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{90C5C676-7E69-4B07-BE6D-8679783BF151}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>NewForExisting</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Util\.gitattributes" />
+    <None Include="WindowsFormsApplication6\App.config" />
+    <None Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe.config" />
+    <None Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.vshost.exe.config" />
+    <None Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.vshost.exe.manifest" />
+    <None Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe.config" />
+    <None Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.vshost.exe.config" />
+    <None Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.vshost.exe.manifest" />
+    <None Include="WindowsFormsApplication6\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="WindowsFormsApplication6\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.GenerateResource.Cache" />
+    <None Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csprojResolveAssemblyReference.cache" />
+    <None Include="WindowsFormsApplication6\obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.csproj.GenerateResource.Cache" />
+    <None Include="WindowsFormsApplication6\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WindowsFormsApplication6\Form1.cs" />
+    <Compile Include="WindowsFormsApplication6\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApplication6\Form2.cs" />
+    <Compile Include="WindowsFormsApplication6\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsFormsApplication6\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="WindowsFormsApplication6\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="WindowsFormsApplication6\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="WindowsFormsApplication6\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="WindowsFormsApplication6\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="WindowsFormsApplication6\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="WindowsFormsApplication6\Program.cs" />
+    <Compile Include="WindowsFormsApplication6\Properties\AssemblyInfo.cs" />
+    <Compile Include="WindowsFormsApplication6\Properties\Resources.Designer.cs" />
+    <Compile Include="WindowsFormsApplication6\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WindowsFormsApplication6\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApplication6\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form1.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Form2.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.Properties.Resources.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.Form1.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.Form2.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.Properties.Resources.resources" />
+    <EmbeddedResource Include="WindowsFormsApplication6\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.exe" />
+    <Content Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.pdb" />
+    <Content Include="WindowsFormsApplication6\bin\Debug\WindowsFormsApplication6.vshost.exe" />
+    <Content Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.exe" />
+    <Content Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.pdb" />
+    <Content Include="WindowsFormsApplication6\bin\Release\WindowsFormsApplication6.vshost.exe" />
+    <Content Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.csproj.FileListAbsolute.txt" />
+    <Content Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.exe" />
+    <Content Include="WindowsFormsApplication6\obj\Debug\WindowsFormsApplication6.pdb" />
+    <Content Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.csproj.FileListAbsolute.txt" />
+    <Content Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.exe" />
+    <Content Include="WindowsFormsApplication6\obj\Release\WindowsFormsApplication6.pdb" />
+    <Content Include="WindowsFormsApplication6\WindowsFormsApplication6.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WindowsFormsApplication6\obj\Debug\TempPE\" />
+    <Folder Include="WindowsFormsApplication6\obj\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
